@@ -51,6 +51,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'erennodejs'
-          slot-name: 'Production'
+          slot-name: 'erennodejs'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B4023BBAC8034BA69318E19D9A7C4078 }}
           package: .
